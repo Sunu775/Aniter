@@ -10,7 +10,7 @@
  "routes": [
    {
   "src": "/(.*)",
-  "dest": "lib/anime_parser.js"
+  "dest": "/lib/anime_parser.js"
    }
  ]
   }
