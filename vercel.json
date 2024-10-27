@@ -3,14 +3,14 @@
  "version": 2,
  "builds": [
    {
-  "src": "./lib/anime_parser.js",
+  "src": "./index.js",
   "use": "@vercel/node"
    }
  ],
  "routes": [
    {
   "src": "/(.*)",
-  "dest": "/lib/anime_parser.js"
+  "dest": "/index.js"
    }
  ]
 }
