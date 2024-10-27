@@ -3,7 +3,7 @@
  "version": 2,
  "builds": [
    {
-  "src": "lib/anime_parser.js",
+  "src": "./lib/anime_parser.js",
   "use": "@vercel/node"
    }
  ],
